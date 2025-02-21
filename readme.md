@@ -7,11 +7,14 @@ Specifically, **EIGait** extracts human gait features by fusing time-frequency f
 
 To demonstrate the effectiveness of **EIGait**, we implemented it on commercial Wi-Fi devices and evaluated its performance across four distinct indoor environments. Experimental results demonstrate that **EIGait** outperforms existing gait recognition systems, consistently delivering superior performance even in challenging settings.
 
+Key innovations of EIGait include:
+- **Time-Frequency & Temporal Fusion**: Extracts gait features by fusing spectrogram-based time-frequency features with phase-change-related temporal features.
+- **Environment-Independent Feature Space**: Transforms features from diverse environments into a unified representation to ensure consistent performance across settings.
+- **Real-World Applicability**: Implemented on commercial Wi-Fi devices and validated across four distinct indoor environments.
+
+
 ## Model Implementation
-The **EIGait** model, along with the models used for comparative experiments, is implemented in the `model/` directory. The core components include:
-- **Feature Extraction:** Capturing time-frequency representations from spectrograms and extracting phase-based temporal features.
-- **Feature Transformation:** Mapping features into an environment-independent space.
-- **Classification Module:** Utilizing deep learning models for gait recognition.
+The **EIGait** model, along with the models used for comparative experiments, is implemented in the `model/` directory. 
 
 ## Experimental Data & Scenarios
 We evaluated **EIGait** in four different indoor environments to assess its robustness and accuracy. The experimental setups are illustrated in the following figures:
